@@ -133,7 +133,7 @@ by editing the file list in `run_v6.py`.
   year   = {2026},
   note   = {Code, data manifests, and pre-registered results for three
             quasi-experimental studies on EU TED contract data},
-  url    = {https://github.com/<owner>/procurement-disclosure-null}
+  url    = {https://github.com/TSUBARAYA/procurement-disclosure-null}
 }
 ```
 
