@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software or results, please cite it as below."
+title: "High-Precision Null: Mandatory E-Procurement Disclosure and Market Competition"
+abstract: >-
+  Three pre-registered quasi-experimental studies (staggered-adoption group-time
+  ATT, contract-level fixed effects, and a legal threshold regression
+  discontinuity) on 6.78 million EU TED contract award notices, converging on a
+  high-precision null for the effect of mandatory e-procurement disclosure on
+  market competition, with one surviving mechanism finding on SME participation.
+authors:
+  - name: "NEO Research Program"
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/<owner>/procurement-disclosure-null"
+keywords:
+  - public procurement
+  - e-procurement
+  - regression discontinuity
+  - difference-in-differences
+  - transparency
+  - null result
+references:
+  - type: article
+    authors:
+      - family-names: Callaway
+        given-names: Brantly
+      - family-names: Sant'Anna
+        given-names: "Pedro H. C."
+    title: "Difference-in-Differences with Multiple Time Periods"
+    journal: "Journal of Econometrics"
+    year: 2021
+    volume: 225
+    issue: 2
+    start: 200
+    end: 230
+  - type: article
+    authors:
+      - family-names: McCrary
+        given-names: Justin
+    title: "Manipulation of the Running Variable in the Regression Discontinuity Design: A Density Test"
+    journal: "Journal of Econometrics"
+    year: 2008
+    volume: 142
+    issue: 2
+    start: 698
+    end: 714
+  - type: article
+    authors:
+      - family-names: Palguta
+        given-names: Jan
+      - family-names: Pertold
+        given-names: Filip
+    title: "Manipulation of Procurement Contracts: Evidence from the Introduction of Discretionary Thresholds"
+    journal: "American Economic Journal: Economic Policy"
+    year: 2017
+    volume: 9
+    issue: 2
+    start: 182
+    end: 213
