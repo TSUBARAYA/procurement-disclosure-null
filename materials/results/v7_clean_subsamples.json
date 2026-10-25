@@ -1,0 +1,645 @@
+{
+ "cleaning": {
+  "n_before": 4688892,
+  "value_est_out_of_range": 46951,
+  "award_value_sentinel": 1608,
+  "n_offers_invalid": 848,
+  "elec_share_out_of_range": 3242241,
+  "lots_absurd": 25092,
+  "tender_period_out_of_range": 46984,
+  "n_after_value_est_valid": 4641941,
+  "n_dropped_value_est": 46951,
+  "n_final": 4641941,
+  "rules": {
+   "value_est": "\u4fdd\u7559 [1000, 1e9]\uff1b\u8d85\u51fa\u8bb0\u4e3a\u7f3a\u5931\uff08\u8352\u8c2c\u503c/\u54e8\u5175\uff09",
+   "award_value": "\u4e22\u5f03 0 \u4e0e 9,999,999,999,999 \u54e8\u5175\u503c",
+   "n_offers": "\u4e22\u5f03 <1 \u4e0e >=999\uff08999 \u4e3a\u4e0a\u62a5\u4e0a\u9650\uff09",
+   "elec_share": "\u4fdd\u7559 [0,1]\uff1b\u8d85\u51fa\u8bb0\u4e3a\u7f3a\u5931",
+   "lots": ">1000 \u8bb0\u4e3a\u7f3a\u5931\uff08\u6570\u636e\u9519\u8bef\uff09",
+   "tender_period": "\u4fdd\u7559 [1,365] \u5929",
+   "single": "\u4ec5\u5728 n_offers \u6709\u6548\u65f6\u6709\u503c"
+  }
+ },
+ "n_band20_clean": 339636,
+ "coverage_by_year": {
+  "2013": {
+   "n": 53843,
+   "value_est": 1.0,
+   "tender_period": 0.999,
+   "has_can": 0.734,
+   "n_offers": 0.647,
+   "award_value": 0.595,
+   "elec_share": 0.058
+  },
+  "2014": {
+   "n": 53823,
+   "value_est": 1.0,
+   "tender_period": 0.999,
+   "has_can": 0.735,
+   "n_offers": 0.659,
+   "award_value": 0.598,
+   "elec_share": 0.068
+  },
+  "2015": {
+   "n": 55317,
+   "value_est": 1.0,
+   "tender_period": 0.998,
+   "has_can": 0.769,
+   "n_offers": 0.687,
+   "award_value": 0.62,
+   "elec_share": 0.103
+  },
+  "2016": {
+   "n": 181140,
+   "value_est": 1.0,
+   "tender_period": 0.994,
+   "has_can": 0.768,
+   "n_offers": 0.52,
+   "award_value": 0.515,
+   "elec_share": 0.212
+  },
+  "2017": {
+   "n": 350721,
+   "value_est": 1.0,
+   "tender_period": 0.974,
+   "has_can": 0.83,
+   "n_offers": 0.539,
+   "award_value": 0.54,
+   "elec_share": 0.232
+  },
+  "2018": {
+   "n": 465289,
+   "value_est": 1.0,
+   "tender_period": 0.996,
+   "has_can": 0.846,
+   "n_offers": 0.46,
+   "award_value": 0.46,
+   "elec_share": 0.257
+  },
+  "2019": {
+   "n": 700046,
+   "value_est": 1.0,
+   "tender_period": 0.989,
+   "has_can": 0.909,
+   "n_offers": 0.446,
+   "award_value": 0.446,
+   "elec_share": 0.294
+  },
+  "2020": {
+   "n": 756065,
+   "value_est": 1.0,
+   "tender_period": 0.994,
+   "has_can": 0.927,
+   "n_offers": 0.518,
+   "award_value": 0.517,
+   "elec_share": 0.359
+  },
+  "2021": {
+   "n": 800469,
+   "value_est": 1.0,
+   "tender_period": 0.994,
+   "has_can": 0.921,
+   "n_offers": 0.589,
+   "award_value": 0.588,
+   "elec_share": 0.377
+  },
+  "2022": {
+   "n": 710806,
+   "value_est": 1.0,
+   "tender_period": 0.994,
+   "has_can": 0.883,
+   "n_offers": 0.599,
+   "award_value": 0.599,
+   "elec_share": 0.409
+  },
+  "2023": {
+   "n": 514422,
+   "value_est": 1.0,
+   "tender_period": 0.997,
+   "has_can": 0.554,
+   "n_offers": 0.347,
+   "award_value": 0.346,
+   "elec_share": 0.224
+  }
+ },
+ "coverage_by_country": {
+  "AUT": {
+   "n": 9195,
+   "value_est": 1.0,
+   "n_offers": 0.602
+  },
+  "BEL": {
+   "n": 23378,
+   "value_est": 1.0,
+   "n_offers": 0.382
+  },
+  "BGR": {
+   "n": 459087,
+   "value_est": 1.0,
+   "n_offers": 0.422
+  },
+  "CYP": {
+   "n": 6210,
+   "value_est": 1.0,
+   "n_offers": 0.412
+  },
+  "CZE": {
+   "n": 182707,
+   "value_est": 1.0,
+   "n_offers": 0.658
+  },
+  "DEU": {
+   "n": 123366,
+   "value_est": 1.0,
+   "n_offers": 0.589
+  },
+  "DNK": {
+   "n": 42390,
+   "value_est": 1.0,
+   "n_offers": 0.544
+  },
+  "ESP": {
+   "n": 364324,
+   "value_est": 1.0,
+   "n_offers": 0.439
+  },
+  "EST": {
+   "n": 14092,
+   "value_est": 1.0,
+   "n_offers": 0.391
+  },
+  "FIN": {
+   "n": 36637,
+   "value_est": 1.0,
+   "n_offers": 0.525
+  },
+  "FRA": {
+   "n": 534813,
+   "value_est": 1.0,
+   "n_offers": 0.493
+  },
+  "GBR": {
+   "n": 130503,
+   "value_est": 1.0,
+   "n_offers": 0.656
+  },
+  "GRC": {
+   "n": 230275,
+   "value_est": 1.0,
+   "n_offers": 0.707
+  },
+  "HRV": {
+   "n": 92881,
+   "value_est": 1.0,
+   "n_offers": 0.514
+  },
+  "HUN": {
+   "n": 12324,
+   "value_est": 1.0,
+   "n_offers": 0.738
+  },
+  "IRL": {
+   "n": 23011,
+   "value_est": 1.0,
+   "n_offers": 0.461
+  },
+  "ITA": {
+   "n": 259516,
+   "value_est": 1.0,
+   "n_offers": 0.465
+  },
+  "LTU": {
+   "n": 40038,
+   "value_est": 1.0,
+   "n_offers": 0.323
+  },
+  "LUX": {
+   "n": 4359,
+   "value_est": 1.0,
+   "n_offers": 0.604
+  },
+  "LVA": {
+   "n": 46226,
+   "value_est": 1.0,
+   "n_offers": 0.702
+  },
+  "MLT": {
+   "n": 941,
+   "value_est": 1.0,
+   "n_offers": 0.451
+  },
+  "NLD": {
+   "n": 14510,
+   "value_est": 1.0,
+   "n_offers": 0.697
+  },
+  "POL": {
+   "n": 387777,
+   "value_est": 1.0,
+   "n_offers": 0.684
+  },
+  "PRT": {
+   "n": 80699,
+   "value_est": 1.0,
+   "n_offers": 0.316
+  },
+  "ROU": {
+   "n": 1435858,
+   "value_est": 1.0,
+   "n_offers": 0.47
+  },
+  "SVK": {
+   "n": 38122,
+   "value_est": 1.0,
+   "n_offers": 0.503
+  },
+  "SVN": {
+   "n": 18930,
+   "value_est": 1.0,
+   "n_offers": 0.725
+  },
+  "SWE": {
+   "n": 29772,
+   "value_est": 1.0,
+   "n_offers": 0.573
+  }
+ },
+ "main_clean": {
+  "single": {
+   "tau_pp": -0.669,
+   "se_pp": 1.456,
+   "p": 0.6496,
+   "n": 179065,
+   "ci95_pp": [
+    -3.66,
+    2.32
+   ]
+  },
+  "n_offers": {
+   "tau_pp": 20.223,
+   "se_pp": 10.36,
+   "p": 0.0614,
+   "n": 179065,
+   "ci95_pp": [
+    -1.03,
+    41.48
+   ]
+  },
+  "foreign_win": {
+   "tau_pp": -1.214,
+   "se_pp": 0.486,
+   "p": 0.019,
+   "n": 280578,
+   "ci95_pp": [
+    -2.21,
+    -0.22
+   ]
+  },
+  "elec_share": {
+   "tau_pp": -0.682,
+   "se_pp": 0.588,
+   "p": 0.2566,
+   "n": 103024,
+   "ci95_pp": [
+    -1.89,
+    0.53
+   ]
+  },
+  "tender_period": {
+   "tau_pp": -30.728,
+   "se_pp": 23.304,
+   "p": 0.1984,
+   "n": 339368,
+   "ci95_pp": [
+    -78.54,
+    17.09
+   ]
+  }
+ },
+ "single_subsamples": {
+  "2013-2016": {
+   "tau_pp": -3.342,
+   "se_pp": 1.415,
+   "p": 0.0257,
+   "n": 20781,
+   "ci95_pp": [
+    -6.25,
+    -0.44
+   ]
+  },
+  "2017-2019": {
+   "tau_pp": 3.377,
+   "se_pp": 8.016,
+   "p": 0.6769,
+   "n": 48360,
+   "ci95_pp": [
+    -13.07,
+    19.83
+   ]
+  },
+  "2020-2023": {
+   "tau_pp": -2.379,
+   "se_pp": 3.859,
+   "p": 0.5428,
+   "n": 109924,
+   "ci95_pp": [
+    -10.3,
+    5.54
+   ]
+  },
+  "type S": {
+   "tau_pp": -0.045,
+   "se_pp": 3.763,
+   "p": 0.9904,
+   "n": 54415,
+   "ci95_pp": [
+    -7.77,
+    7.67
+   ]
+  },
+  "type U": {
+   "tau_pp": -1.163,
+   "se_pp": 2.565,
+   "p": 0.6539,
+   "n": 112442,
+   "ci95_pp": [
+    -6.43,
+    4.1
+   ]
+  },
+  "type W": {
+   "tau_pp": -1.531,
+   "se_pp": 1.45,
+   "p": 0.3006,
+   "n": 12208,
+   "ci95_pp": [
+    -4.51,
+    1.45
+   ]
+  },
+  "single lot": {
+   "tau_pp": -1.774,
+   "se_pp": 0.876,
+   "p": 0.053,
+   "n": 48361,
+   "ci95_pp": [
+    -3.57,
+    0.02
+   ]
+  },
+  "multi lot": {
+   "tau_pp": -1.125,
+   "se_pp": 2.389,
+   "p": 0.6416,
+   "n": 130704,
+   "ci95_pp": [
+    -6.03,
+    3.78
+   ]
+  },
+  "2013-2016 S": {
+   "tau_pp": -4.791,
+   "se_pp": 1.29,
+   "p": 0.0009,
+   "n": 7979,
+   "ci95_pp": [
+    -7.44,
+    -2.15
+   ]
+  },
+  "2013-2016 U": {
+   "tau_pp": 0.05,
+   "se_pp": 2.325,
+   "p": 0.983,
+   "n": 10516,
+   "ci95_pp": [
+    -4.72,
+    4.82
+   ]
+  },
+  "2013-2016 W": {
+   "tau_pp": -9.371,
+   "se_pp": 3.364,
+   "p": 0.01,
+   "n": 2286,
+   "ci95_pp": [
+    -16.3,
+    -2.44
+   ]
+  }
+ },
+ "n_offers_subsamples": {
+  "2013-2016": {
+   "tau_pp": 32.655,
+   "se_pp": 14.935,
+   "p": 0.0376,
+   "n": 20781,
+   "ci95_pp": [
+    2.01,
+    63.3
+   ]
+  },
+  "2017-2019": {
+   "tau_pp": 94.793,
+   "se_pp": 88.439,
+   "p": 0.2933,
+   "n": 48360,
+   "ci95_pp": [
+    -86.67,
+    276.26
+   ]
+  },
+  "2020-2023": {
+   "tau_pp": -9.549,
+   "se_pp": 22.366,
+   "p": 0.6728,
+   "n": 109924,
+   "ci95_pp": [
+    -55.44,
+    36.34
+   ]
+  }
+ },
+ "foreign_win_scale_test": {
+  "type only": {
+   "tau_pp": -1.214,
+   "se_pp": 0.486,
+   "p": 0.019,
+   "n": 280578,
+   "ci95_pp": [
+    -2.21,
+    -0.22
+   ]
+  },
+  "type + log est value": {
+   "tau_pp": -1.213,
+   "se_pp": 0.486,
+   "p": 0.019,
+   "n": 280578,
+   "ci95_pp": [
+    -2.21,
+    -0.22
+   ]
+  },
+  "type + log award value": {
+   "tau_pp": -1.561,
+   "se_pp": 0.614,
+   "p": 0.017,
+   "n": 177911,
+   "ci95_pp": [
+    -2.82,
+    -0.3
+   ]
+  },
+  "layers": {
+   "0.8-0.9": {
+    "tau_pp": -0.0,
+    "se_pp": NaN,
+    "p": NaN,
+    "n": 63140,
+    "ci95_pp": [
+     NaN,
+     NaN
+    ]
+   },
+   "0.9-1.0": {
+    "tau_pp": -0.0,
+    "se_pp": 0.0,
+    "p": 0.0327,
+    "n": 67682,
+    "ci95_pp": [
+     -0.0,
+     -0.0
+    ]
+   },
+   "1.0-1.1": {
+    "tau_pp": 0.0,
+    "se_pp": 0.0,
+    "p": 0.0,
+    "n": 75249,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "1.1-1.2": {
+    "tau_pp": -0.0,
+    "se_pp": NaN,
+    "p": NaN,
+    "n": 74245,
+    "ci95_pp": [
+     NaN,
+     NaN
+    ]
+   }
+  },
+  "by_type": {
+   "S": {
+    "tau_pp": -0.702,
+    "se_pp": 0.682,
+    "p": 0.3119,
+    "n": 72763,
+    "ci95_pp": [
+     -2.1,
+     0.7
+    ]
+   },
+   "U": {
+    "tau_pp": -0.975,
+    "se_pp": 0.537,
+    "p": 0.0807,
+    "n": 191390,
+    "ci95_pp": [
+     -2.08,
+     0.13
+    ]
+   },
+   "W": {
+    "tau_pp": -0.865,
+    "se_pp": 1.191,
+    "p": 0.474,
+    "n": 16425,
+    "ci95_pp": [
+     -3.31,
+     1.58
+    ]
+   }
+  }
+ },
+ "placebo_clean": {
+  "estimates": {
+   "0.70": {
+    "tau_pp": 1.879,
+    "se_pp": 3.548,
+    "p": 0.6008,
+    "n": 93243,
+    "ci95_pp": [
+     -5.4,
+     9.16
+    ]
+   },
+   "0.80": {
+    "tau_pp": -0.423,
+    "se_pp": 1.879,
+    "p": 0.8233,
+    "n": 120196,
+    "ci95_pp": [
+     -4.28,
+     3.43
+    ]
+   },
+   "0.90": {
+    "tau_pp": -2.005,
+    "se_pp": 2.598,
+    "p": 0.4469,
+    "n": 146084,
+    "ci95_pp": [
+     -7.33,
+     3.32
+    ]
+   },
+   "1.10": {
+    "tau_pp": 1.811,
+    "se_pp": 3.379,
+    "p": 0.5964,
+    "n": 196826,
+    "ci95_pp": [
+     -5.12,
+     8.74
+    ]
+   },
+   "1.20": {
+    "tau_pp": -0.799,
+    "se_pp": 2.614,
+    "p": 0.7623,
+    "n": 220350,
+    "ci95_pp": [
+     -6.16,
+     4.56
+    ]
+   },
+   "1.30": {
+    "tau_pp": -2.199,
+    "se_pp": 3.761,
+    "p": 0.5637,
+    "n": 227594,
+    "ci95_pp": [
+     -9.92,
+     5.52
+    ]
+   },
+   "1.40": {
+    "tau_pp": -0.831,
+    "se_pp": 2.228,
+    "p": 0.7122,
+    "n": 231721,
+    "ci95_pp": [
+     -5.4,
+     3.74
+    ]
+   }
+  },
+  "n_sig": 0,
+  "n_total": 7
+ }
+}

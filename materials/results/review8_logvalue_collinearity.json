@@ -1,0 +1,43 @@
+{
+ "within_cell_collinearity": {
+  "corr_logvalue_r_within_cy": 0.157495,
+  "corr_logvalue_r_within_cy_type": 1.0,
+  "r2_logvalue_on_r_within_cy": 0.024805,
+  "note": "阈值在 (国家,年,类型) 单元内为常数，log_value = r + log(τ) + log 修正，故单元内相关应为 1（cy 内因类型阈值不同而略小于 1）"
+ },
+ "vif_logvalue": {
+  "r2_logvalue_on_other_regressors": 1.0,
+  "vif": 4484809.89
+ },
+ "control_sets": {
+  "none": {
+   "tau_pp": 1.359,
+   "se_pp": 0.654,
+   "p": 0.0473,
+   "n": 327636
+  },
+  "logval": {
+   "tau_pp": 1.38,
+   "se_pp": 0.664,
+   "p": 0.0474,
+   "n": 327636
+  },
+  "type": {
+   "tau_pp": 1.269,
+   "se_pp": 0.71,
+   "p": 0.0849,
+   "n": 327636
+  },
+  "prereg": {
+   "tau_pp": 1.268,
+   "se_pp": 0.709,
+   "p": 0.0849,
+   "n": 327636
+  }
+ },
+ "threshold_recovery": {
+  "flips_full_cache": 4246,
+  "flips_in_band": 4246,
+  "note": "exp(log(v)-r) 恢复阈值存在 ~1e-16 相对误差，使 value 恰好等于阈值的堆点合同被错分到下方；整数阈值表重构可避免"
+ }
+}

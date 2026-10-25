@@ -1,5 +1,11 @@
-# Raw TED extracts (large; download per data/README.md)
-data/external/ted/
+# Raw external data (large; download per data/README.md). The transposition
+# table is the one shipped file under data/external/.
+data/external/*
+!data/external/eu_transposition_2014_24.csv
+
+# Derived intermediate caches (regenerated from the raw extracts by the pipeline;
+# see docs/manifest.md — nothing in the paper depends on a shipped cache)
+analysis/*.csv
 
 # Python
 __pycache__/
@@ -7,6 +13,19 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+
+# Figure tooling (HTML/CDP pipeline superseded by the matplotlib builders)
+figures/node_modules/
+figures/*.html
+figures/*.js
+figures/package*.json
+
+# Local-only / submission material (not part of the reproducibility record)
+paper/cover_letter.md
+paper/_superseded_round2_Does_Transparency.docx
+paper/*.pdf
+paper/_chk_*.png
+paper/Testing_the_Transparency_Competition_Premise.docx
 
 # OS
 .DS_Store

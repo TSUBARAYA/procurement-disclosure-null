@@ -1,0 +1,60 @@
+{
+  "n_total": 326718,
+  "n_est_populated": 311778,
+  "coverage_pct": 95.4,
+  "n_clean": 165498,
+  "clean_share_of_populated_pct": 53.1,
+  "discount_by_single_offer": {
+    "single": {
+      "mean": 0.0596,
+      "median": 0.0,
+      "n": 51526
+    },
+    "multi": {
+      "mean": 0.0661,
+      "median": 0.0,
+      "n": 113972
+    }
+  },
+  "discount_by_above": {
+    "below": {
+      "mean": 0.0723,
+      "median": 0.0,
+      "n": 82872
+    },
+    "above": {
+      "mean": 0.0558,
+      "median": 0.0,
+      "n": 82626
+    }
+  },
+  "rd_discount": {
+    "tau": -0.0176,
+    "se": 0.0015,
+    "t": -12.076,
+    "p": 0.0,
+    "ci95": [
+      -0.0205,
+      -0.0148
+    ],
+    "n": 158226
+  },
+  "discount_by_cell": {
+    "multi_above": {
+      "mean": 0.058,
+      "n": 56054
+    },
+    "multi_below": {
+      "mean": 0.074,
+      "n": 57918
+    },
+    "single_above": {
+      "mean": 0.0512,
+      "n": 26572
+    },
+    "single_below": {
+      "mean": 0.0685,
+      "n": 24954
+    }
+  }
+}

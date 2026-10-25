@@ -1,0 +1,14 @@
+{
+  "excess_contracts_below_threshold": 2257.3,
+  "excess_pct_of_below_binmass": 1.28,
+  "mean_value_near_threshold_by_type": {
+    "S": 213202,
+    "U": 213392,
+    "W": 5366600
+  },
+  "mean_value_near_threshold_overall": 494786,
+  "near_threshold_total_value_eur": 41577338444,
+  "excess_value_eur_overall": 1116861123,
+  "excess_value_eur_supply_service": 481470617,
+  "n_near": 84031
+}

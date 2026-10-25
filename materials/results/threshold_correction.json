@@ -1,0 +1,732 @@
+{
+  "true_thresholds": {
+    "SU": {
+      "2013": 200000,
+      "2014": 207000,
+      "2015": 207000,
+      "2016": 209000,
+      "2017": 209000,
+      "2018": 221000,
+      "2019": 221000,
+      "2020": 214000,
+      "2021": 214000,
+      "2022": 215000,
+      "2023": 215000
+    },
+    "W": {
+      "2013": 5000000,
+      "2014": 5186000,
+      "2015": 5186000,
+      "2016": 5225000,
+      "2017": 5225000,
+      "2018": 5548000,
+      "2019": 5548000,
+      "2020": 5350000,
+      "2021": 5350000,
+      "2022": 5382000,
+      "2023": 5382000
+    }
+  },
+  "code_thresholds": {
+    "SU": {
+      "2013": 207000,
+      "2014": 207000,
+      "2015": 207000,
+      "2016": 207000,
+      "2017": 207000,
+      "2018": 221000,
+      "2019": 221000,
+      "2020": 214000,
+      "2021": 214000,
+      "2022": 215000,
+      "2023": 215000
+    },
+    "W": {
+      "2013": 5235000,
+      "2014": 5235000,
+      "2015": 5235000,
+      "2016": 5235000,
+      "2017": 5235000,
+      "2018": 5548000,
+      "2019": 5548000,
+      "2020": 5350000,
+      "2021": 5350000,
+      "2022": 5382000,
+      "2023": 5382000
+    }
+  },
+  "misclassified": {
+    "total": 3451,
+    "share_of_band_pct": 1.06,
+    "by_year_type": [
+      {
+        "year": 2013,
+        "type": "S",
+        "n_mis": 770.0,
+        "n_band": 7607,
+        "share_pct": 10.12
+      },
+      {
+        "year": 2013,
+        "type": "U",
+        "n_mis": 722.0,
+        "n_band": 7926,
+        "share_pct": 9.11
+      },
+      {
+        "year": 2013,
+        "type": "W",
+        "n_mis": 143.0,
+        "n_band": 1155,
+        "share_pct": 12.38
+      },
+      {
+        "year": 2014,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 7465,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2014,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 8469,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2014,
+        "type": "W",
+        "n_mis": 27.0,
+        "n_band": 1062,
+        "share_pct": 2.54
+      },
+      {
+        "year": 2015,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 8008,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2015,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 9216,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2015,
+        "type": "W",
+        "n_mis": 17.0,
+        "n_band": 1060,
+        "share_pct": 1.6
+      },
+      {
+        "year": 2016,
+        "type": "S",
+        "n_mis": 667.0,
+        "n_band": 10000,
+        "share_pct": 6.67
+      },
+      {
+        "year": 2016,
+        "type": "U",
+        "n_mis": 202.0,
+        "n_band": 9506,
+        "share_pct": 2.12
+      },
+      {
+        "year": 2016,
+        "type": "W",
+        "n_mis": 7.0,
+        "n_band": 1368,
+        "share_pct": 0.51
+      },
+      {
+        "year": 2017,
+        "type": "S",
+        "n_mis": 477.0,
+        "n_band": 13327,
+        "share_pct": 3.58
+      },
+      {
+        "year": 2017,
+        "type": "U",
+        "n_mis": 386.0,
+        "n_band": 12603,
+        "share_pct": 3.06
+      },
+      {
+        "year": 2017,
+        "type": "W",
+        "n_mis": 33.0,
+        "n_band": 1349,
+        "share_pct": 2.45
+      },
+      {
+        "year": 2018,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 15054,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2018,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 14631,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2018,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 1655,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2019,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 17436,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2019,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 16567,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2019,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 1917,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2020,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 16652,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2020,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 16224,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2020,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 1809,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2021,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 18272,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2021,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 18611,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2021,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 2113,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2022,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 19314,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2022,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 19428,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2022,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 2328,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2023,
+        "type": "S",
+        "n_mis": 0.0,
+        "n_band": 20063,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2023,
+        "type": "U",
+        "n_mis": 0.0,
+        "n_band": 21860,
+        "share_pct": 0.0
+      },
+      {
+        "year": 2023,
+        "type": "W",
+        "n_mis": 0.0,
+        "n_band": 2663,
+        "share_pct": 0.0
+      }
+    ],
+    "detail": {
+      "coded_below_truly_above": 1719,
+      "coded_above_truly_below": 1732
+    }
+  },
+  "missing_from_cache": {
+    "note": "缓存只含代码口径 ±20% 带。真实带与缓存带之差用缓存内均价密度外推估计，为量级估计而非精确计数；精确重跑需要完整 TED 提取。",
+    "by_year_type": [
+      {
+        "year": 2013,
+        "type": "S",
+        "n_cached": 7607,
+        "gap_below_eur": [
+          160000,
+          165600
+        ],
+        "gap_above_eur": null,
+        "est_missing": 514
+      },
+      {
+        "year": 2013,
+        "type": "U",
+        "n_cached": 7926,
+        "gap_below_eur": [
+          160000,
+          165600
+        ],
+        "gap_above_eur": null,
+        "est_missing": 536
+      },
+      {
+        "year": 2013,
+        "type": "W",
+        "n_cached": 1155,
+        "gap_below_eur": [
+          4000000,
+          4188000
+        ],
+        "gap_above_eur": null,
+        "est_missing": 104
+      },
+      {
+        "year": 2014,
+        "type": "W",
+        "n_cached": 1062,
+        "gap_below_eur": [
+          4148800,
+          4188000
+        ],
+        "gap_above_eur": null,
+        "est_missing": 20
+      },
+      {
+        "year": 2015,
+        "type": "W",
+        "n_cached": 1060,
+        "gap_below_eur": [
+          4148800,
+          4188000
+        ],
+        "gap_above_eur": null,
+        "est_missing": 20
+      },
+      {
+        "year": 2016,
+        "type": "S",
+        "n_cached": 10000,
+        "gap_below_eur": null,
+        "gap_above_eur": [
+          248400,
+          250800
+        ],
+        "est_missing": 290
+      },
+      {
+        "year": 2016,
+        "type": "U",
+        "n_cached": 9506,
+        "gap_below_eur": null,
+        "gap_above_eur": [
+          248400,
+          250800
+        ],
+        "est_missing": 276
+      },
+      {
+        "year": 2016,
+        "type": "W",
+        "n_cached": 1368,
+        "gap_below_eur": [
+          4180000,
+          4188000
+        ],
+        "gap_above_eur": null,
+        "est_missing": 5
+      },
+      {
+        "year": 2017,
+        "type": "S",
+        "n_cached": 13327,
+        "gap_below_eur": null,
+        "gap_above_eur": [
+          248400,
+          250800
+        ],
+        "est_missing": 386
+      },
+      {
+        "year": 2017,
+        "type": "U",
+        "n_cached": 12603,
+        "gap_below_eur": null,
+        "gap_above_eur": [
+          248400,
+          250800
+        ],
+        "est_missing": 365
+      },
+      {
+        "year": 2017,
+        "type": "W",
+        "n_cached": 1349,
+        "gap_below_eur": [
+          4180000,
+          4188000
+        ],
+        "gap_above_eur": null,
+        "est_missing": 5
+      }
+    ],
+    "est_total_missing": 2521
+  },
+  "corrected_estimates": {
+    "none": {
+      "baseline": {
+        "tau_pp": 1.39,
+        "se_pp": 0.64,
+        "p": 0.0401,
+        "n": 324360,
+        "G": 28,
+        "ci95_pp": [
+          0.07,
+          2.71
+        ]
+      },
+      "donut01": {
+        "tau_pp": 1.78,
+        "se_pp": 0.69,
+        "p": 0.0154,
+        "n": 303347,
+        "G": 28,
+        "ci95_pp": [
+          0.37,
+          3.19
+        ]
+      },
+      "donut02": {
+        "tau_pp": 1.68,
+        "se_pp": 0.7,
+        "p": 0.0243,
+        "n": 288708,
+        "G": 28,
+        "ci95_pp": [
+          0.24,
+          3.13
+        ]
+      },
+      "donut03": {
+        "tau_pp": 1.94,
+        "se_pp": 0.84,
+        "p": 0.0291,
+        "n": 272655,
+        "G": 28,
+        "ci95_pp": [
+          0.21,
+          3.66
+        ]
+      },
+      "est_value": {
+        "tau_pp": 1.35,
+        "se_pp": 1.16,
+        "p": 0.2566,
+        "n": 134582,
+        "G": 28,
+        "ci95_pp": [
+          -1.04,
+          3.74
+        ]
+      }
+    },
+    "type": {
+      "baseline": {
+        "tau_pp": 1.26,
+        "se_pp": 0.7,
+        "p": 0.0817,
+        "n": 324360,
+        "G": 28,
+        "ci95_pp": [
+          -0.17,
+          2.69
+        ]
+      },
+      "donut01": {
+        "tau_pp": 1.87,
+        "se_pp": 0.63,
+        "p": 0.0061,
+        "n": 303347,
+        "G": 28,
+        "ci95_pp": [
+          0.58,
+          3.15
+        ]
+      },
+      "donut02": {
+        "tau_pp": 1.8,
+        "se_pp": 0.65,
+        "p": 0.0096,
+        "n": 288708,
+        "G": 28,
+        "ci95_pp": [
+          0.48,
+          3.13
+        ]
+      },
+      "donut03": {
+        "tau_pp": 2.1,
+        "se_pp": 0.75,
+        "p": 0.0096,
+        "n": 272655,
+        "G": 28,
+        "ci95_pp": [
+          0.56,
+          3.65
+        ]
+      },
+      "est_value": {
+        "tau_pp": 0.8,
+        "se_pp": 1.5,
+        "p": 0.5976,
+        "n": 134582,
+        "G": 28,
+        "ci95_pp": [
+          -2.27,
+          3.87
+        ]
+      }
+    },
+    "prereg": {
+      "baseline": {
+        "tau_pp": 1.26,
+        "se_pp": 0.7,
+        "p": 0.082,
+        "n": 324360,
+        "G": 28,
+        "ci95_pp": [
+          -0.17,
+          2.69
+        ]
+      },
+      "donut01": {
+        "tau_pp": 1.86,
+        "se_pp": 0.63,
+        "p": 0.0061,
+        "n": 303347,
+        "G": 28,
+        "ci95_pp": [
+          0.58,
+          3.14
+        ]
+      },
+      "donut02": {
+        "tau_pp": 1.79,
+        "se_pp": 0.65,
+        "p": 0.0099,
+        "n": 288708,
+        "G": 28,
+        "ci95_pp": [
+          0.47,
+          3.12
+        ]
+      },
+      "donut03": {
+        "tau_pp": 2.1,
+        "se_pp": 0.75,
+        "p": 0.0097,
+        "n": 272655,
+        "G": 28,
+        "ci95_pp": [
+          0.55,
+          3.65
+        ]
+      },
+      "est_value": {
+        "tau_pp": 0.84,
+        "se_pp": 1.52,
+        "p": 0.5883,
+        "n": 134582,
+        "G": 28,
+        "ci95_pp": [
+          -2.29,
+          3.96
+        ]
+      }
+    }
+  },
+  "corrected_bandwidth_poly": {
+    "bw10_lin": {
+      "tau_pp": 0.11,
+      "se_pp": 0.84,
+      "p": 0.8979,
+      "n": 168798,
+      "G": 28,
+      "ci95_pp": [
+        -1.61,
+        1.83
+      ]
+    },
+    "bw10_quad": {
+      "tau_pp": -0.85,
+      "se_pp": 1.31,
+      "p": 0.5196,
+      "n": 168798
+    },
+    "bw15_lin": {
+      "tau_pp": 0.83,
+      "se_pp": 0.67,
+      "p": 0.2244,
+      "n": 247284,
+      "G": 28,
+      "ci95_pp": [
+        -0.54,
+        2.2
+      ]
+    },
+    "bw15_quad": {
+      "tau_pp": -0.36,
+      "se_pp": 1.24,
+      "p": 0.7708,
+      "n": 247284
+    },
+    "bw20_lin": {
+      "tau_pp": 1.25,
+      "se_pp": 0.73,
+      "p": 0.0992,
+      "n": 308402,
+      "G": 28,
+      "ci95_pp": [
+        -0.25,
+        2.75
+      ]
+    },
+    "bw20_quad": {
+      "tau_pp": -0.04,
+      "se_pp": 1.05,
+      "p": 0.9701,
+      "n": 308402
+    },
+    "bw25_lin": {
+      "tau_pp": 1.26,
+      "se_pp": 0.7,
+      "p": 0.0817,
+      "n": 324360,
+      "G": 28,
+      "ci95_pp": [
+        -0.17,
+        2.69
+      ]
+    },
+    "bw25_quad": {
+      "tau_pp": 0.2,
+      "se_pp": 1.0,
+      "p": 0.8455,
+      "n": 324360
+    }
+  },
+  "corrected_density": {
+    "left_contracts": 175281,
+    "right_contracts": 129438,
+    "log_density_gap": -0.01551,
+    "excess_below_pct": 0.01563,
+    "mechanical_log_gap": -0.03055,
+    "bias_corrected_excess_below_pct": -0.01493,
+    "symmetric_full_bins": {
+      "below_mean": 15748.5,
+      "above_mean": 16389.7,
+      "t_stat": 0.739,
+      "p_value": 0.4695
+    },
+    "p_loggap_vs_mechanical_null": 0.1857,
+    "n_band": 324360
+  },
+  "old_vs_corrected_no_controls": [
+    {
+      "spec": "baseline",
+      "old_tau": 0.95,
+      "new_tau": 1.39,
+      "old_p": 0.1479,
+      "new_p": 0.0401,
+      "old_n": 326718,
+      "new_n": 324360
+    },
+    {
+      "spec": "donut_01",
+      "old_tau": 1.55,
+      "new_tau": 1.78,
+      "old_p": 0.0363,
+      "new_p": 0.0154,
+      "old_n": 305895,
+      "new_n": 303347
+    },
+    {
+      "spec": "donut_02",
+      "old_tau": 1.4,
+      "new_tau": 1.68,
+      "old_p": 0.0646,
+      "new_p": 0.0243,
+      "old_n": 291340,
+      "new_n": 288708
+    },
+    {
+      "spec": "donut_03",
+      "old_tau": 1.75,
+      "new_tau": 1.94,
+      "old_p": 0.0447,
+      "new_p": 0.0291,
+      "old_n": 275425,
+      "new_n": 272655
+    },
+    {
+      "spec": "est_value",
+      "old_tau": 2.3,
+      "new_tau": 1.35,
+      "old_p": 0.0496,
+      "new_p": 0.2566,
+      "old_n": 135444,
+      "new_n": 134582
+    }
+  ]
+}

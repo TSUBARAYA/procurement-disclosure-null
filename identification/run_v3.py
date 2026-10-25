@@ -16,6 +16,7 @@ from estimators_v2 import build_cells, aggregate, cell_ci, pre_trend_test
 
 SEED = 20261018
 OUT = os.path.join(BASE, 'report')
+os.makedirs(OUT, exist_ok=True)
 
 # ---------- 转化登记库 ----------
 cohorts = {}

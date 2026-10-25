@@ -1,0 +1,57 @@
+{
+ "bins_\u00b15pct": {
+  "-4": 19447,
+  "-3": 13903,
+  "-2": 14514,
+  "-1": 16274,
+  "0": 19960,
+  "1": 18247,
+  "2": 21659,
+  "3": 17484
+ },
+ "local_logdens_below": {
+  "k_range": [
+   -3,
+   -1
+  ],
+  "n_bins": 3,
+  "counts": [
+   13903,
+   14514,
+   16274
+  ],
+  "slope_per_r": 3.9366,
+  "slope_se": 1.0312,
+  "slope_t": 3.82,
+  "log_dens_at_0": 9.7248,
+  "dens_at_0_per_unit_r": 16727.0
+ },
+ "local_logdens_above": {
+  "k_range": [
+   0,
+   2
+  ],
+  "n_bins": 3,
+  "counts": [
+   19960,
+   18247,
+   21659
+  ],
+  "slope_per_r": 2.0423,
+  "slope_se": 3.7694,
+  "slope_t": 0.54,
+  "log_dens_at_0": 9.8375,
+  "dens_at_0_per_unit_r": 18723.6
+ },
+ "extrapolated_ratio_below_over_above": 0.8934,
+ "adjacent_1bin": {
+  "below": 16274,
+  "above": 19960,
+  "ratio": 0.8153
+ },
+ "adjacent_2bin": {
+  "below": 30788,
+  "above": 38207,
+  "ratio": 0.8058
+ }
+}

@@ -1,0 +1,477 @@
+{
+ "panel": {
+  "rows": 308,
+  "contracts": 8927537,
+  "years": "2013\u20132023",
+  "countries": 28
+ },
+ "archive_check": {
+  "cells": 252,
+  "exact_n": 252,
+  "pct_exact": 100.0
+ },
+ "share_single_offer": {
+  "event_study": {
+   "-5": {
+    "att_pp": 2.483,
+    "n_cells": 1,
+    "n_contracts": 22551,
+    "countries": []
+   },
+   "-4": {
+    "att_pp": 6.248,
+    "n_cells": 2,
+    "n_contracts": 62077,
+    "countries": []
+   },
+   "-3": {
+    "att_pp": -0.272,
+    "n_cells": 3,
+    "n_contracts": 500490,
+    "countries": []
+   },
+   "-2": {
+    "att_pp": 1.72,
+    "n_cells": 4,
+    "n_contracts": 510938,
+    "countries": []
+   },
+   "-1": {
+    "att_pp": 2.455,
+    "n_cells": 4,
+    "n_contracts": 535525,
+    "countries": []
+   },
+   "0": {
+    "att_pp": 4.534,
+    "n_cells": 4,
+    "n_contracts": 548772,
+    "countries": []
+   },
+   "1": {
+    "att_pp": 7.124,
+    "n_cells": 4,
+    "n_contracts": 713705,
+    "countries": []
+   },
+   "2": {
+    "att_pp": 7.797,
+    "n_cells": 4,
+    "n_contracts": 797309,
+    "countries": []
+   },
+   "3": {
+    "att_pp": 7.833,
+    "n_cells": 4,
+    "n_contracts": 961415,
+    "countries": []
+   },
+   "4": {
+    "att_pp": 8.219,
+    "n_cells": 4,
+    "n_contracts": 1059603,
+    "countries": []
+   },
+   "5": {
+    "att_pp": 6.71,
+    "n_cells": 4,
+    "n_contracts": 1125998,
+    "countries": []
+   },
+   "6": {
+    "att_pp": 7.066,
+    "n_cells": 3,
+    "n_contracts": 922029,
+    "countries": []
+   },
+   "7": {
+    "att_pp": 6.392,
+    "n_cells": 2,
+    "n_contracts": 863222,
+    "countries": []
+   },
+   "8": {
+    "att_pp": 10.297,
+    "n_cells": 1,
+    "n_contracts": 13408,
+    "countries": []
+   }
+  },
+  "att_pp": 7.102,
+  "n_post_cells": 30,
+  "n_contracts": 7005461,
+  "boot": {
+   "B": 2000,
+   "se_pp": 2.644,
+   "ci95_pp": [
+    1.93,
+    12.24
+   ]
+  },
+  "pre_coeffs": [
+   2.483,
+   6.248,
+   -0.272,
+   1.72,
+   2.455
+  ],
+  "pre_max_abs_pp": 6.248,
+  "never_att_pp": 9.891,
+  "never_boot": {
+   "B": 1926,
+   "se_pp": 5.292,
+   "ci95_pp": [
+    -0.1,
+    21.82
+   ]
+  }
+ },
+ "elec_offer_share": {
+  "event_study": {
+   "-5": {
+    "att_pp": -17.792,
+    "n_cells": 1,
+    "n_contracts": 22551,
+    "countries": []
+   },
+   "-4": {
+    "att_pp": -16.058,
+    "n_cells": 2,
+    "n_contracts": 62077,
+    "countries": []
+   },
+   "-3": {
+    "att_pp": -5.405,
+    "n_cells": 3,
+    "n_contracts": 500490,
+    "countries": []
+   },
+   "-2": {
+    "att_pp": -4.118,
+    "n_cells": 4,
+    "n_contracts": 510938,
+    "countries": []
+   },
+   "-1": {
+    "att_pp": -1.042,
+    "n_cells": 4,
+    "n_contracts": 535525,
+    "countries": []
+   },
+   "0": {
+    "att_pp": -0.741,
+    "n_cells": 4,
+    "n_contracts": 548772,
+    "countries": []
+   },
+   "1": {
+    "att_pp": 8.863,
+    "n_cells": 4,
+    "n_contracts": 713705,
+    "countries": []
+   },
+   "2": {
+    "att_pp": -1.765,
+    "n_cells": 4,
+    "n_contracts": 797309,
+    "countries": []
+   },
+   "3": {
+    "att_pp": 0.612,
+    "n_cells": 4,
+    "n_contracts": 961415,
+    "countries": []
+   },
+   "4": {
+    "att_pp": 5.251,
+    "n_cells": 4,
+    "n_contracts": 1059603,
+    "countries": []
+   },
+   "5": {
+    "att_pp": 5.056,
+    "n_cells": 4,
+    "n_contracts": 1125998,
+    "countries": []
+   },
+   "6": {
+    "att_pp": 9.443,
+    "n_cells": 3,
+    "n_contracts": 922029,
+    "countries": []
+   },
+   "7": {
+    "att_pp": 7.06,
+    "n_cells": 2,
+    "n_contracts": 863222,
+    "countries": []
+   },
+   "8": {
+    "att_pp": 36.237,
+    "n_cells": 1,
+    "n_contracts": 13408,
+    "countries": []
+   }
+  },
+  "att_pp": 4.517,
+  "n_post_cells": 30,
+  "n_contracts": 7005461,
+  "boot": {
+   "B": 2000,
+   "se_pp": 7.3,
+   "ci95_pp": [
+    -11.4,
+    18.22
+   ]
+  },
+  "pre_coeffs": [
+   -17.792,
+   -16.058,
+   -5.405,
+   -4.118,
+   -1.042
+  ],
+  "pre_max_abs_pp": 17.792,
+  "never_att_pp": 27.233,
+  "never_boot": {
+   "B": 1926,
+   "se_pp": 10.692,
+   "ci95_pp": [
+    2.01,
+    44.49
+   ]
+  }
+ },
+ "foreign_winner_share": {
+  "event_study": {
+   "-5": {
+    "att_pp": -10.235,
+    "n_cells": 1,
+    "n_contracts": 22551,
+    "countries": []
+   },
+   "-4": {
+    "att_pp": -7.059,
+    "n_cells": 2,
+    "n_contracts": 62077,
+    "countries": []
+   },
+   "-3": {
+    "att_pp": -4.564,
+    "n_cells": 3,
+    "n_contracts": 500490,
+    "countries": []
+   },
+   "-2": {
+    "att_pp": -3.656,
+    "n_cells": 4,
+    "n_contracts": 510938,
+    "countries": []
+   },
+   "-1": {
+    "att_pp": -4.208,
+    "n_cells": 4,
+    "n_contracts": 535525,
+    "countries": []
+   },
+   "0": {
+    "att_pp": -4.678,
+    "n_cells": 4,
+    "n_contracts": 548772,
+    "countries": []
+   },
+   "1": {
+    "att_pp": -3.914,
+    "n_cells": 4,
+    "n_contracts": 713705,
+    "countries": []
+   },
+   "2": {
+    "att_pp": -4.113,
+    "n_cells": 4,
+    "n_contracts": 797309,
+    "countries": []
+   },
+   "3": {
+    "att_pp": -4.462,
+    "n_cells": 4,
+    "n_contracts": 961415,
+    "countries": []
+   },
+   "4": {
+    "att_pp": -4.149,
+    "n_cells": 4,
+    "n_contracts": 1059603,
+    "countries": []
+   },
+   "5": {
+    "att_pp": -3.354,
+    "n_cells": 4,
+    "n_contracts": 1125998,
+    "countries": []
+   },
+   "6": {
+    "att_pp": -4.255,
+    "n_cells": 3,
+    "n_contracts": 922029,
+    "countries": []
+   },
+   "7": {
+    "att_pp": -3.452,
+    "n_cells": 2,
+    "n_contracts": 863222,
+    "countries": []
+   },
+   "8": {
+    "att_pp": -3.28,
+    "n_cells": 1,
+    "n_contracts": 13408,
+    "countries": []
+   }
+  },
+  "att_pp": -4.004,
+  "n_post_cells": 30,
+  "n_contracts": 7005461,
+  "boot": {
+   "B": 2000,
+   "se_pp": 3.445,
+   "ci95_pp": [
+    -9.91,
+    1.36
+   ]
+  },
+  "pre_coeffs": [
+   -10.235,
+   -7.059,
+   -4.564,
+   -3.656,
+   -4.208
+  ],
+  "pre_max_abs_pp": 10.235,
+  "never_att_pp": -11.178,
+  "never_boot": {
+   "B": 1926,
+   "se_pp": 10.779,
+   "ci95_pp": [
+    -36.51,
+    2.05
+   ]
+  }
+ },
+ "mean_offers": {
+  "event_study": {
+   "-5": {
+    "att_pp": -170.727,
+    "n_cells": 1,
+    "n_contracts": 22551,
+    "countries": []
+   },
+   "-4": {
+    "att_pp": -164.996,
+    "n_cells": 2,
+    "n_contracts": 62077,
+    "countries": []
+   },
+   "-3": {
+    "att_pp": 36.025,
+    "n_cells": 3,
+    "n_contracts": 500490,
+    "countries": []
+   },
+   "-2": {
+    "att_pp": 2459.493,
+    "n_cells": 4,
+    "n_contracts": 510938,
+    "countries": []
+   },
+   "-1": {
+    "att_pp": 1199.207,
+    "n_cells": 4,
+    "n_contracts": 535525,
+    "countries": []
+   },
+   "0": {
+    "att_pp": 2469.238,
+    "n_cells": 4,
+    "n_contracts": 548772,
+    "countries": []
+   },
+   "1": {
+    "att_pp": 30.508,
+    "n_cells": 4,
+    "n_contracts": 713705,
+    "countries": []
+   },
+   "2": {
+    "att_pp": 22.43,
+    "n_cells": 4,
+    "n_contracts": 797309,
+    "countries": []
+   },
+   "3": {
+    "att_pp": -122.134,
+    "n_cells": 4,
+    "n_contracts": 961415,
+    "countries": []
+   },
+   "4": {
+    "att_pp": -137.161,
+    "n_cells": 4,
+    "n_contracts": 1059603,
+    "countries": []
+   },
+   "5": {
+    "att_pp": 469.871,
+    "n_cells": 4,
+    "n_contracts": 1125998,
+    "countries": []
+   },
+   "6": {
+    "att_pp": -133.626,
+    "n_cells": 3,
+    "n_contracts": 922029,
+    "countries": []
+   },
+   "7": {
+    "att_pp": 55.951,
+    "n_cells": 2,
+    "n_contracts": 863222,
+    "countries": []
+   },
+   "8": {
+    "att_pp": -471.475,
+    "n_cells": 1,
+    "n_contracts": 13408,
+    "countries": []
+   }
+  },
+  "att_pp": 225.509,
+  "n_post_cells": 30,
+  "n_contracts": 7005461,
+  "boot": {
+   "B": 2000,
+   "se_pp": 219.404,
+   "ci95_pp": [
+    -203.74,
+    645.13
+   ]
+  },
+  "pre_coeffs": [
+   -170.727,
+   -164.996,
+   36.025,
+   2459.493,
+   1199.207
+  ],
+  "pre_max_abs_pp": 2459.493,
+  "never_att_pp": 88.343,
+  "never_boot": {
+   "B": 1926,
+   "se_pp": 413.722,
+   "ci95_pp": [
+    -844.83,
+    771.64
+   ]
+  }
+ }
+}

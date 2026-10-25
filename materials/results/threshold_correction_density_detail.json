@@ -1,0 +1,20 @@
+{
+  "left_contracts": 175281,
+  "right_contracts": 129438,
+  "log_density_gap": -0.01551,
+  "excess_below_pct": 0.01563,
+  "bin_minus1": 16011,
+  "bin_0": 19641,
+  "sym_below": 15748.5,
+  "sym_above": 16389.7,
+  "sym_t": 0.739,
+  "sym_p": 0.4695,
+  "mccrary_ratio": 1.0013,
+  "ex_mp_below": 15738.5,
+  "ex_mp_above": 15799.2,
+  "ex_mp_above_over_below": 1.0039,
+  "masspoint": 5314,
+  "masspoint_exact": 5116,
+  "masspoint_below": 110,
+  "n_band": 324360
+}

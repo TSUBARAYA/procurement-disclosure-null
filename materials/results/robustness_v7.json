@@ -1,0 +1,80 @@
+{
+  "mde": {
+    "note": "MDE = 2.8 × SE（80% power, 双侧 α=0.05）",
+    "v6_rd": {
+      "se_pp": 0.68,
+      "mde80_pp": 1.9
+    },
+    "v4_twfe": {
+      "se_pp": 0.98,
+      "mde80_pp": 2.74
+    },
+    "v3_att": {
+      "ci_halfwidth_pp": 5.4,
+      "mde80_pp": 7.7,
+      "mde_ted_own_calc_pp": 4.05
+    }
+  },
+  "rd_baseline": {
+    "tau_pp": 0.58,
+    "se_pp": 0.32,
+    "p": 0.067,
+    "n": 309892,
+    "ci95_pp": [
+      -0.04,
+      1.21
+    ]
+  },
+  "rd_donut_01": {
+    "tau_pp": 2.93,
+    "se_pp": 0.37,
+    "p": 0.0,
+    "n": 289068,
+    "ci95_pp": [
+      2.21,
+      3.64
+    ]
+  },
+  "rd_donut_02": {
+    "tau_pp": 3.1,
+    "se_pp": 0.41,
+    "p": 0.0,
+    "n": 274511,
+    "ci95_pp": [
+      2.3,
+      3.89
+    ]
+  },
+  "rd_donut_03": {
+    "tau_pp": 4.32,
+    "se_pp": 0.46,
+    "p": 0.0,
+    "n": 258596,
+    "ci95_pp": [
+      3.42,
+      5.22
+    ]
+  },
+  "rd_estimated_value": {
+    "tau_pp": 4.25,
+    "se_pp": 0.48,
+    "p": 0.0,
+    "n": 131045,
+    "ci95_pp": [
+      3.31,
+      5.19
+    ],
+    "n_clean_pool": 165498,
+    "note": "干净子集 ratio∈[0.5,2]；running variable 为估计价值"
+  },
+  "offer_distribution": {
+    "mean_offers_below": 6.837,
+    "share_ge3_offers_below": 0.5032,
+    "share_single_below": 0.2917,
+    "n_below": 159448,
+    "mean_offers_above": 6.028,
+    "share_ge3_offers_above": 0.4916,
+    "share_single_above": 0.3035,
+    "n_above": 150444
+  }
+}

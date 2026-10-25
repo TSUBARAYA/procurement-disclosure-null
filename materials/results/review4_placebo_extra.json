@@ -1,0 +1,26 @@
+{
+ "0.7": {
+  "n_band_contracts": 48798,
+  "n_below_placebo": 0,
+  "n_above_placebo": 48798,
+  "status": "infeasible on cached +/-20% band: no comparison group on one side of this placebo cutoff within the band"
+ },
+ "0.8": {
+  "n_band_contracts": 159064,
+  "n_below_placebo": 105,
+  "n_above_placebo": 158959,
+  "status": "infeasible on cached +/-20% band: no comparison group on one side of this placebo cutoff within the band"
+ },
+ "1.2": {
+  "n_band_contracts": 163609,
+  "n_below_placebo": 163523,
+  "n_above_placebo": 86,
+  "status": "infeasible on cached +/-20% band: no comparison group on one side of this placebo cutoff within the band"
+ },
+ "1.3": {
+  "n_band_contracts": 96814,
+  "n_below_placebo": 96814,
+  "n_above_placebo": 0,
+  "status": "infeasible on cached +/-20% band: no comparison group on one side of this placebo cutoff within the band"
+ }
+}

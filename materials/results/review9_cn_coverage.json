@@ -1,0 +1,75 @@
+{
+ "by_year": {
+  "2013": {
+   "filtered": 152135,
+   "with_est": 54453,
+   "grc_filtered": 2489,
+   "grc_with_est": 1992
+  },
+  "2014": {
+   "filtered": 149979,
+   "with_est": 54241,
+   "grc_filtered": 2031,
+   "grc_with_est": 1642
+  },
+  "2015": {
+   "filtered": 154669,
+   "with_est": 55737,
+   "grc_filtered": 1708,
+   "grc_with_est": 1515
+  },
+  "2016": {
+   "filtered": 341342,
+   "with_est": 184986,
+   "grc_filtered": 2386,
+   "grc_with_est": 2248
+  },
+  "2017": {
+   "filtered": 637476,
+   "with_est": 355577,
+   "grc_filtered": 20323,
+   "grc_with_est": 20214
+  },
+  "2018": {
+   "filtered": 908085,
+   "with_est": 470961,
+   "grc_filtered": 22347,
+   "grc_with_est": 22160
+  },
+  "2019": {
+   "filtered": 1207800,
+   "with_est": 706196,
+   "grc_filtered": 34267,
+   "grc_with_est": 33775
+  },
+  "2020": {
+   "filtered": 1168209,
+   "with_est": 762708,
+   "grc_filtered": 42733,
+   "grc_with_est": 42428
+  },
+  "2021": {
+   "filtered": 1201659,
+   "with_est": 806331,
+   "grc_filtered": 51292,
+   "grc_with_est": 50918
+  },
+  "2022": {
+   "filtered": 1143235,
+   "with_est": 717563,
+   "grc_filtered": 36383,
+   "grc_with_est": 36018
+  },
+  "2023": {
+   "filtered": 902190,
+   "with_est": 520139,
+   "grc_filtered": 17785,
+   "grc_with_est": 17383
+  }
+ },
+ "total_filtered": 7966779,
+ "total_with_est": 4688892,
+ "grc_filtered": 233744,
+ "grc_with_est": 230293,
+ "coverage": 58.86
+}

@@ -1,0 +1,230 @@
+{
+  "n_country_years": 252,
+  "n_countries": 28,
+  "n_contracts": 6782760,
+  "v3_inference": {
+    "outcome": "share_single_offer",
+    "post_att_pp": 3.374,
+    "n_cells": 8,
+    "n_countries": 28,
+    "archived_reproduced": true,
+    "archived_percentile_ci": [
+      -3.69,
+      7.12
+    ],
+    "cell_level_t": {
+      "se_pp": 1.995,
+      "ci": [
+        -1.343,
+        8.091
+      ],
+      "note": "8 个 cell 当独立观测，忽略 cell 内抽样误差与 cell 间协方差"
+    },
+    "influence_function_multiplier": {
+      "se_pp": 1.896,
+      "ci": [
+        -0.32,
+        7.14
+      ],
+      "note": "IF 按国家对 (g,t) 单元分解；Rademacher multiplier，4000 次，聚类到国家"
+    },
+    "country_cluster_bootstrap": {
+      "se_pp": 1.65,
+      "ci": [
+        0.28,
+        6.65
+      ],
+      "n_replicates": 1449,
+      "note": "有放回抽 28 国，重建 (g,t) 单元与汇总 ATT，2000 次"
+    },
+    "note": "三种区间不一致：cell-t 与 multiplier 跨零，country cluster bootstrap 不跨零。点估计 +3.37pp 是政策前提排除的方向；是否可与零区分取决于信哪个区间。"
+  },
+  "audit": {
+    "results_v3.json": {
+      "status": "reproducible",
+      "script": "identification/run_v3.py + estimators_v2.py（仓库内）",
+      "data": "data/interim/ted_panel.csv（仓库内，252 country-year）",
+      "check": "post ATT 与 n_cells 已逐位复现"
+    },
+    "results_v4.json": {
+      "status": "reproducible",
+      "script": "identification/run_v4.py（仓库内）",
+      "data": "data/interim/ted_micro.csv（仓库内，16,429 cells）",
+      "check": "主估计 +1.39pp / binary +7.44pp / dose +33.42pp 已对回归档"
+    },
+    "results_v6.json": {
+      "status": "reproducible",
+      "script": "analysis/run_v6_full_rerun.py（A 块，用归档错误阈值）",
+      "data": "data/external/ted/can_YYYY.zip（EU Open Data Portal，750MB）",
+      "check": "n/四个主估计/密度 gap/placebo 全部逐位复现"
+    },
+    "rd_robustness_valuespace_v7.json": {
+      "status": "reproducible",
+      "script": "figures/run_rd_valuespace.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "rd_clustered_v7.json": {
+      "status": "reproducible",
+      "script": "figures/run_rd_clustered.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "robustness_v7.json": {
+      "status": "reproducible",
+      "script": "figures/run_robustness_v7.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "rd_extensions_v6.json": {
+      "status": "reproducible",
+      "script": "figures/run_rd_extensions.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "heterogeneity_v6.json": {
+      "status": "reproducible",
+      "script": "figures/run_heterogeneity.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "price_margin_v6.json": {
+      "status": "reproducible",
+      "script": "figures/run_price_bunching.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review2_robustness.json": {
+      "status": "reproducible",
+      "script": "figures/run_review2.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review2_controls.json": {
+      "status": "reproducible",
+      "script": "analysis/run_review2_controls.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review3_inference.json": {
+      "status": "reproducible",
+      "script": "analysis/run_review3.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review4_v3_ci_reconstruction.json": {
+      "status": "reproducible",
+      "script": "analysis/run_v3_ci_reconstruct.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review4_table2_controls.json": {
+      "status": "reproducible",
+      "script": "analysis/run_review4_table2.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review4_placebo_extra.json": {
+      "status": "reproducible",
+      "script": "analysis/run_placebo_extra.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review5_density_audit.json": {
+      "status": "reproducible",
+      "script": "analysis/run_density_audit.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "prereg_window_check.json": {
+      "status": "reproducible",
+      "script": "analysis/run_prereg_window_check.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "rd_window_split.json": {
+      "status": "reproducible",
+      "script": "（内联脚本，已归档）",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "window_control_grid.json": {
+      "status": "reproducible",
+      "script": "analysis/run_window_control_grid.py",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "review4_loo_donut01.json": {
+      "status": "reproducible",
+      "script": "（内联脚本，已归档）",
+      "data": "analysis/rd_sample_cache.csv 或 data/external/ted/",
+      "check": "脚本与数据均在，可重跑"
+    },
+    "bunching_eur_v6.json": {
+      "status": "NOT reproducible",
+      "script": "figures/run_price_bunching.py 只产出 price_margin 部分；bunching 的三个口径（3,262 / 2,257 / 11,062）在仓库内无对应脚本",
+      "data": "analysis/rd_sample_cache.csv（错误阈值口径）",
+      "check": "三口径互相差 5 倍且无脚本可追溯 → 论文已撤回定量声明"
+    },
+    "digital_split_v6.json": {
+      "status": "NOT reproducible",
+      "script": "仓库内无脚本产出该文件；n=80,002/229,890 的拆分变量无法还原",
+      "data": "analysis/rd_sample_cache.csv",
+      "check": "合同级电子报价份额中位数=1.0，\"高\"半仅 198 条数据异常 → 论文已撤回"
+    },
+    "threshold_correction.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "threshold_correction_decomposition.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "threshold_correction_density_detail.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "threshold_correction_main_table.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "v6_full_rerun.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "v6_rerun_final.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "v6_full_rerun_diagnostics.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "v6_rerun_diagnostics_fixed.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    },
+    "v3_inference_and_audit.json": {
+      "status": "reproducible",
+      "script": "本轮新增脚本",
+      "data": "data/external/ted/ 或 data/interim/",
+      "check": "本轮新增，脚本随结果一并归档"
+    }
+  }
+}

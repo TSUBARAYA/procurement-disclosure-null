@@ -1,0 +1,181 @@
+{
+  "covariate_balance": {
+    "baseline_pm05": {
+      "log_value": {
+        "diff": 0.0462,
+        "se": 0.0192,
+        "p": 0.023,
+        "mean_above": 12.4657,
+        "mean_below": 12.4195,
+        "n_above": 43098,
+        "n_below": 40930
+      },
+      "elec_share": {
+        "diff": 0.029,
+        "se": 0.0068,
+        "p": 0.0,
+        "mean_above": 0.8295,
+        "mean_below": 0.8005,
+        "n_above": 17409,
+        "n_below": 16898
+      },
+      "share_U": {
+        "diff": 0.0166,
+        "se": 0.0103,
+        "p": 0.12,
+        "mean_above": 0.4876,
+        "mean_below": 0.471,
+        "n_above": 43098,
+        "n_below": 40930
+      },
+      "share_W": {
+        "diff": -0.0013,
+        "se": 0.0058,
+        "p": 0.82,
+        "mean_above": 0.0535,
+        "mean_below": 0.0548,
+        "n_above": 43098,
+        "n_below": 40930
+      }
+    },
+    "donut01_pm05": {
+      "log_value": {
+        "diff": 0.0787,
+        "se": 0.0177,
+        "p": 0.0,
+        "mean_above": 12.4886,
+        "mean_below": 12.4099,
+        "n_above": 30352,
+        "n_below": 32853
+      },
+      "elec_share": {
+        "diff": 0.0332,
+        "se": 0.009,
+        "p": 0.001,
+        "mean_above": 0.8253,
+        "mean_below": 0.7921,
+        "n_above": 13206,
+        "n_below": 13352
+      },
+      "share_U": {
+        "diff": -0.0021,
+        "se": 0.0095,
+        "p": 0.827,
+        "mean_above": 0.4713,
+        "mean_below": 0.4734,
+        "n_above": 30352,
+        "n_below": 32853
+      },
+      "share_W": {
+        "diff": 0.0046,
+        "se": 0.0054,
+        "p": 0.404,
+        "mean_above": 0.0582,
+        "mean_below": 0.0537,
+        "n_above": 30352,
+        "n_below": 32853
+      }
+    }
+  },
+  "donut_bandwidth_grid": {
+    "bw10_donut00": {
+      "tau_pp": 0.13,
+      "se_pp": 0.74,
+      "p": 0.856
+    },
+    "bw10_donut01": {
+      "tau_pp": 1.04,
+      "se_pp": 0.65,
+      "p": 0.121
+    },
+    "bw10_donut02": {
+      "tau_pp": 0.46,
+      "se_pp": 0.98,
+      "p": 0.644
+    },
+    "bw15_donut00": {
+      "tau_pp": 0.54,
+      "se_pp": 0.58,
+      "p": 0.357
+    },
+    "bw15_donut01": {
+      "tau_pp": 1.24,
+      "se_pp": 0.6,
+      "p": 0.049
+    },
+    "bw15_donut02": {
+      "tau_pp": 0.96,
+      "se_pp": 0.61,
+      "p": 0.127
+    },
+    "bw20_donut00": {
+      "tau_pp": 0.95,
+      "se_pp": 0.64,
+      "p": 0.148
+    },
+    "bw20_donut01": {
+      "tau_pp": 1.55,
+      "se_pp": 0.71,
+      "p": 0.036
+    },
+    "bw20_donut02": {
+      "tau_pp": 1.4,
+      "se_pp": 0.73,
+      "p": 0.065
+    }
+  },
+  "donut_bandwidth_note": "\u7f13\u5b58\u4ec5\u542b \u00b120% \u9608\u503c\u5e26\uff08v6 \u9884\u6ce8\u518c\u6837\u672c\uff09\uff0c\u00b125% \u5e26\u5bbd\u65e0\u6cd5\u7528\u7f13\u5b58\u590d\u73b0\uff1b\u8bba\u6587\u56fe4\u7684 \u00b125% \u6765\u81ea archived v6 \u8fd0\u884c\uff08\u5168\u91cf\u6570\u636e\uff09",
+  "estvalue_ratio_sensitivity": {
+    "ratio_0.5_2.0": {
+      "tau_pp": 2.3,
+      "se_pp": 1.12,
+      "p": 0.05,
+      "n": 135444
+    },
+    "ratio_0.67_1.5": {
+      "tau_pp": 2.3,
+      "se_pp": 1.12,
+      "p": 0.05,
+      "n": 135443
+    },
+    "ratio_0.8_1.25": {
+      "tau_pp": 2.35,
+      "se_pp": 1.12,
+      "p": 0.045,
+      "n": 133226
+    }
+  },
+  "bunching": {
+    "excess_repro_poly5_fit023": 11062,
+    "excess_boot_ci": [
+      10818,
+      11353
+    ],
+    "eur_millions_repro": 2359.5,
+    "eur_boot_ci_millions": [
+      2307.5,
+      2421.5
+    ],
+    "sensitivity_grid_window_x_order": {
+      "fit0.08_o3": 3950,
+      "fit0.08_o5": -965,
+      "fit0.08_o7": 971,
+      "fit0.1_o3": 3381,
+      "fit0.1_o5": 3541,
+      "fit0.1_o7": -2830,
+      "fit0.15_o3": 2843,
+      "fit0.15_o5": 3262,
+      "fit0.15_o7": 2848,
+      "fit0.2_o3": 372,
+      "fit0.2_o5": 4795,
+      "fit0.2_o7": 1602,
+      "fit0.23_o3": -18538,
+      "fit0.23_o5": 11062,
+      "fit0.23_o7": -4042,
+      "fit0.3_o3": -65537,
+      "fit0.3_o5": -10610,
+      "fit0.3_o7": 13091
+    },
+    "note": "\u53cd\u4e8b\u5b9e\u4e3a\u5bf9\u6570\u5bc6\u5ea6\u591a\u9879\u5f0f\uff1b\u7a97\u53e3\u5185\u4ec5 \u22120.01 \u4e00\u4e2a bin\uff1b\u5168\u5c40 \u00b10.30 \u62df\u5408\u5916\u63a8\u75c5\u6001\uff08cf \u8d85\u8fc7\u6240\u6709\u90bb\u8fd1 bin\uff09"
+  }
+}

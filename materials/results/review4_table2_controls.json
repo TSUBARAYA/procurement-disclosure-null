@@ -1,0 +1,74 @@
+{
+  "single": {
+    "prereg": {
+      "tau_pp": 0.82,
+      "se_robust_pp": 0.3,
+      "p_robust": 0.0059,
+      "se_clust_pp": 0.69,
+      "p_clust": 0.2427,
+      "n": 326718
+    },
+    "type_only": {
+      "tau_pp": 0.82,
+      "se_robust_pp": 0.3,
+      "p_robust": 0.0062,
+      "se_clust_pp": 0.69,
+      "p_clust": 0.2452,
+      "n": 326718
+    }
+  },
+  "log_offers": {
+    "prereg": {
+      "tau_pp": -0.32,
+      "se_robust_pp": 0.49,
+      "p_robust": 0.5124,
+      "se_clust_pp": 1.83,
+      "p_clust": 0.8607,
+      "n": 326718
+    },
+    "type_only": {
+      "tau_pp": -0.34,
+      "se_robust_pp": 0.49,
+      "p_robust": 0.4937,
+      "se_clust_pp": 1.83,
+      "p_clust": 0.8543,
+      "n": 326718
+    }
+  },
+  "elec_share": {
+    "prereg": {
+      "tau_pp": 0.47,
+      "se_robust_pp": 0.3,
+      "p_robust": 0.1199,
+      "se_clust_pp": 0.33,
+      "p_clust": 0.1614,
+      "n": 136084
+    },
+    "type_only": {
+      "tau_pp": 0.47,
+      "se_robust_pp": 0.3,
+      "p_robust": 0.1215,
+      "se_clust_pp": 0.33,
+      "p_clust": 0.1644,
+      "n": 136084
+    }
+  },
+  "foreign_win": {
+    "prereg": {
+      "tau_pp": 1.15,
+      "se_robust_pp": 0.2,
+      "p_robust": 0.0,
+      "se_clust_pp": 0.91,
+      "p_clust": 0.22,
+      "n": 326718
+    },
+    "type_only": {
+      "tau_pp": 1.16,
+      "se_robust_pp": 0.2,
+      "p_robust": 0.0,
+      "se_clust_pp": 0.91,
+      "p_clust": 0.2134,
+      "n": 326718
+    }
+  }
+}

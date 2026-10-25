@@ -1,0 +1,150 @@
+{
+ "single": {
+  "point_pp": 3.374,
+  "archived_range_pp": [
+   -3.687,
+   7.119
+  ],
+  "archived_note": "2.5/97.5 empirical percentiles of 8 (g,t) cell ATTs (estimators_v2.cell_ci)",
+  "unweighted_cell_mean_pp": 2.424,
+  "cell_sd_pp": 4.092,
+  "cell_se_pp": 1.995,
+  "cell_t_ci95_pp": [
+   -1.343,
+   8.091
+  ],
+  "n_cells": 8,
+  "cell_details": [
+   {
+    "g": 2015,
+    "t": 2017,
+    "att_pp": 0.178,
+    "n_treated": 1,
+    "n_control": 5
+   },
+   {
+    "g": 2015,
+    "t": 2018,
+    "att_pp": 1.907,
+    "n_treated": 1,
+    "n_control": 3
+   },
+   {
+    "g": 2016,
+    "t": 2018,
+    "att_pp": 7.151,
+    "n_treated": 16,
+    "n_control": 3
+   },
+   {
+    "g": 2016,
+    "t": 2019,
+    "att_pp": 3.936,
+    "n_treated": 16,
+    "n_control": 3
+   },
+   {
+    "g": 2017,
+    "t": 2019,
+    "att_pp": -4.11,
+    "n_treated": 6,
+    "n_control": 3
+   },
+   {
+    "g": 2017,
+    "t": 2020,
+    "att_pp": -1.695,
+    "n_treated": 6,
+    "n_control": 3
+   },
+   {
+    "g": 2018,
+    "t": 2020,
+    "att_pp": 5.058,
+    "n_treated": 2,
+    "n_control": 3
+   },
+   {
+    "g": 2018,
+    "t": 2021,
+    "att_pp": 6.972,
+    "n_treated": 2,
+    "n_control": 3
+   }
+  ]
+ },
+ "elec": {
+  "point_pp": 38.217,
+  "archived_range_pp": [
+   13.648,
+   53.741
+  ],
+  "archived_note": "2.5/97.5 empirical percentiles of 8 (g,t) cell ATTs (estimators_v2.cell_ci)",
+  "unweighted_cell_mean_pp": 35.399,
+  "cell_sd_pp": 14.436,
+  "cell_se_pp": 7.037,
+  "cell_t_ci95_pp": [
+   21.577,
+   54.856
+  ],
+  "n_cells": 8,
+  "cell_details": [
+   {
+    "g": 2015,
+    "t": 2017,
+    "att_pp": 10.624,
+    "n_treated": 1,
+    "n_control": 5
+   },
+   {
+    "g": 2015,
+    "t": 2018,
+    "att_pp": 28.23,
+    "n_treated": 1,
+    "n_control": 3
+   },
+   {
+    "g": 2016,
+    "t": 2018,
+    "att_pp": 29.511,
+    "n_treated": 16,
+    "n_control": 3
+   },
+   {
+    "g": 2016,
+    "t": 2019,
+    "att_pp": 38.695,
+    "n_treated": 16,
+    "n_control": 3
+   },
+   {
+    "g": 2017,
+    "t": 2019,
+    "att_pp": 53.26,
+    "n_treated": 6,
+    "n_control": 3
+   },
+   {
+    "g": 2017,
+    "t": 2020,
+    "att_pp": 53.843,
+    "n_treated": 6,
+    "n_control": 3
+   },
+   {
+    "g": 2018,
+    "t": 2020,
+    "att_pp": 27.907,
+    "n_treated": 2,
+    "n_control": 3
+   },
+   {
+    "g": 2018,
+    "t": 2021,
+    "att_pp": 41.125,
+    "n_treated": 2,
+    "n_control": 3
+   }
+  ]
+ }
+}

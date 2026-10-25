@@ -1,0 +1,141 @@
+{
+ "n_cn_procedures": 4641941,
+ "n_band20": 339636,
+ "top_type_share": {
+  "COD": {
+   "below": 0.0008,
+   "above": 0.001
+  },
+  "INP": {
+   "below": 0.0,
+   "above": 0.0
+  },
+  "NEC": {
+   "below": 0.0015,
+   "above": 0.0016
+  },
+  "NIC": {
+   "below": 0.0078,
+   "above": 0.0127
+  },
+  "OPE": {
+   "below": 0.9786,
+   "above": 0.9683
+  },
+  "RES": {
+   "below": 0.0112,
+   "above": 0.0164
+  }
+ },
+ "first_stage_candidates": {
+  "accelerated": {
+   "tau_pp": -0.775,
+   "se_pp": 1.103,
+   "p": 0.4881,
+   "n": 339636
+  },
+  "fra_agreement": {
+   "tau_pp": -3.135,
+   "se_pp": 1.157,
+   "p": 0.0115,
+   "n": 339636
+  },
+  "joint_proc": {
+   "tau_pp": 0.002,
+   "se_pp": 0.281,
+   "p": 0.994,
+   "n": 339636
+  },
+  "dyn_purch": {
+   "tau_pp": 0.031,
+   "se_pp": 0.19,
+   "p": 0.8731,
+   "n": 339636
+  },
+  "gpa": {
+   "tau_pp": 0.659,
+   "se_pp": 1.778,
+   "p": 0.7138,
+   "n": 339636
+  },
+  "elec_auction": {
+   "tau_pp": 0.822,
+   "se_pp": 0.546,
+   "p": 0.1437,
+   "n": 339636
+  },
+  "tender_period": {
+   "tau_pp": -34.582,
+   "se_pp": 24.549,
+   "p": 0.1703,
+   "n": 339380
+  },
+  "crit_price_w": {
+   "tau_pp": -1914.665,
+   "se_pp": 4000.41,
+   "p": 0.6361,
+   "n": 53243
+  },
+  "lots": {
+   "tau_pp": -1474.653,
+   "se_pp": 1658.811,
+   "p": 0.3819,
+   "n": 338494
+  }
+ },
+ "top_type_rd": {
+  "COD": {
+   "tau_pp": 0.047,
+   "se_pp": 0.057,
+   "p": 0.4135,
+   "n": 339636
+  },
+  "INP": {
+   "tau_pp": 0.004,
+   "se_pp": 0.002,
+   "p": 0.0379,
+   "n": 339636
+  },
+  "NEC": {
+   "tau_pp": -0.092,
+   "se_pp": 0.046,
+   "p": 0.0556,
+   "n": 339636
+  },
+  "NIC": {
+   "tau_pp": -0.07,
+   "se_pp": 0.131,
+   "p": 0.6001,
+   "n": 339636
+  },
+  "OPE": {
+   "tau_pp": 0.007,
+   "se_pp": 0.321,
+   "p": 0.9823,
+   "n": 339636
+  },
+  "RES": {
+   "tau_pp": 0.102,
+   "se_pp": 0.293,
+   "p": 0.7295,
+   "n": 339636
+  }
+ },
+ "holm_first_stage": {
+  "fra_agreement": 0.1725,
+  "INP": 0.5306,
+  "NEC": 0.7228,
+  "elec_auction": 1.0,
+  "tender_period": 1.0,
+  "lots": 1.0,
+  "COD": 1.0,
+  "accelerated": 1.0,
+  "NIC": 1.0,
+  "crit_price_w": 1.0,
+  "gpa": 1.0,
+  "RES": 1.0,
+  "dyn_purch": 1.0,
+  "OPE": 1.0,
+  "joint_proc": 0.994
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "log_window": {
+    "baseline_controls": {
+      "tau_pp": 0.78,
+      "se_pp": 0.74,
+      "p": 0.3037,
+      "n": 309892
+    },
+    "baseline_nocontrols": {
+      "tau_pp": 0.9,
+      "se_pp": 0.7,
+      "p": 0.2052,
+      "n": 309892
+    },
+    "donut_01_controls": {
+      "tau_pp": 1.68,
+      "se_pp": 0.7,
+      "p": 0.0233,
+      "n": 289068
+    },
+    "donut_02_controls": {
+      "tau_pp": 1.54,
+      "se_pp": 0.74,
+      "p": 0.0459,
+      "n": 274511
+    },
+    "donut_03_controls": {
+      "tau_pp": 1.98,
+      "se_pp": 0.81,
+      "p": 0.0212,
+      "n": 258596
+    }
+  },
+  "value_window": {
+    "baseline_controls": {
+      "tau_pp": 0.82,
+      "se_pp": 0.69,
+      "p": 0.2427,
+      "n": 326718
+    },
+    "baseline_nocontrols": {
+      "tau_pp": 0.95,
+      "se_pp": 0.64,
+      "p": 0.1479,
+      "n": 326718
+    },
+    "donut_01_controls": {
+      "tau_pp": 1.7,
+      "se_pp": 0.65,
+      "p": 0.0142,
+      "n": 305895
+    },
+    "donut_02_controls": {
+      "tau_pp": 1.6,
+      "se_pp": 0.66,
+      "p": 0.0218,
+      "n": 291340
+    },
+    "donut_03_controls": {
+      "tau_pp": 2.02,
+      "se_pp": 0.74,
+      "p": 0.0107,
+      "n": 275425
+    }
+  }
+}

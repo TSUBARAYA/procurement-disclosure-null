@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.git/
+*.pdf
+_check*
+# 大缓存：由流水线自行生成，不进镜像
+analysis/cn_matched*.csv
+analysis/micro_exact.csv
+analysis/cy_panel_exact.csv
+analysis/ted_wide_final.csv
+analysis/rd_sample_cache.csv
+# TED 原始数据（1.1GB）：按需下载或挂载
+data/external/ted/

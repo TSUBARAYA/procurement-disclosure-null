@@ -1,10 +1,8 @@
-# Failure Log — NEO v2.1–v6.0 (Contract-Level Procurement Line)
+# Failure Log — Contract-Level Procurement Line (v2.1–v6.0)
 
-Extracted from the full project failure log. Records F8–F17, covering the
-estimator-localization experiment (v2.1), the TED contract-level designs
-(v3.0, v4.0), the low-baseline attempt (v5.0), and the threshold
-discontinuity design (v6.0). Entries F1–F7 (v1.0–v2.0, national-panel line)
-are not reproduced here.
+Records F8–F17. The v6.0 threshold discontinuity design is the paper's main
+strategy; v3.0/v4.0 are the auxiliary convergence designs; v2.1 localized the
+estimator problem; v5.0 (low-baseline country) is recorded as incomplete.
 
 ## F8. v1.0 事后追加：v2.0 设计的动机记录（顺序预注册，非事后修补）
 
@@ -224,3 +222,65 @@ are not reproduced here.
 - **判定**：null（降级）。与 v3.0（+0.032）/v4.0（+0.014）在不同识别
   来源下收敛。"效应小于检测下限"的解释可信度大幅下降（MDE 已压到
   0.001 量级）；剩余解释：效应不存在，或效应在 TED 不可见的国内合同市场。
+
+---
+
+## F18. 阈值表错误与更正（第四轮发现）
+
+- **错误**：v6.0 冻结预注册的阈值表把 2013–2017 用错：2013 用了 EUR 207,000/5,235,000
+  （应为 EUR 200,000/5,000,000），2014–15 工程值 5,235,000（应为 5,186,000），
+  2016–17 用了 2014–15 的值（应为 209,000/5,225,000）。工程值 5,235,000
+  在系列文书中不存在。
+- **处置**：冻结文件**字节不动**（哈希继续有效），更正写入单独附录
+  `config/preregistration_v6_threshold_addendum.md`。从原始 TED 端到端重跑：
+  归档口径（错阈值）逐位复现 results_v6.json；法定口径下 headline
+  +0.82 变为 +1.27pp。论文 7.4 报告全过程。
+- **教训**：哈希证明"发布的字节就是提交的字节"，不证明"计划正确"——论文
+  第 8 节对此有专门讨论。
+
+## F19. 冻结密度检验的拒绝是构造伪影（第五轮）
+
+- 冻结实现把 12 个下方箱与 9 个上方箱对比、丢弃紧贴截止点的上方箱，对 50/50
+  零假设做二项检验：完全对称的密度也会产生 -3.1% 的"下方超额"伪影，
+  观测值（归档 -1.57%、法定 -1.14%）小于机械伪影。
+- 更正后的检验（对称箱窗、正确的 12/21 零假设、聚类推断）不拒绝；点估计
+  偏上方。论文 7.1 报告审计，headline 不因冻结规则的降级而下调。
+
+## F20. v7.0：把断点改到法律真正使用的变量上（第六至八轮）
+
+- v6.0 的 running variable 是授标价值（买方可在授奖环节操纵）：16 个假断点
+  中 4 个显著。v7.0 改用合同公告开标前公布的法定估计价值（VALUE_EURO），
+  经 FUTURE_CAN_ID 链接授奖公告取结果。诊断全部通过（安慰剂 0/7、
+  构成平衡、局部密度无断点）。第一阶段系统性缺失：15 个候选无一经多重
+  比较校正后显著（框架协议名义 p=0.012，Holm 0.17）。
+
+## F21. 国家码映射 bug：希腊被静默剔除（第十一轮）
+
+- run_v7_estimate_rd.py 的国家码映射把 TED 两字母代码 GR 误写成键 GRC，
+  希腊全部 CN 公告被剔除，主设计实际只有 27 国而论文通篇称 EU-28。
+  同类笔误另见于 run_v7_first_stage.py 与 run_transposition_contract.py。
+- **影响**：样本 4,458,599 变为 4,688,892（+230,293 条希腊公告）；头条
+  **+0.49 变为 -0.67pp**（符号翻转），donut 三项全部转为不显著；结论方向
+  （无可检测竞争收益）不变。
+- **处置**：修复三处映射，删除陈旧缓存，从原始 zip 全量重跑并重建全部
+  下游结果与图；论文 6.1 报告两次运行（27 国 +0.49 与 28 国 -0.67）。
+- **教训**：样本量陈述（EU-28）必须与国家码映射的单元测试绑定——此次由
+  对管线的审计而非计量结果发现。
+
+## F22. 密度聚类 bootstrap 实现缺陷（第十二轮）
+
+- run_v7_density_test.py 的国家聚类 bootstrap 原按国家名 isin 掩模重抽
+  （每次约保留 18/28 国、无重复），实为子抽样、低估聚类标准误。
+- 改为在预聚合的国家×箱计数矩阵上有放回重抽：1 箱比 0.8153 的标准误
+  0.132 变为 0.153（p 0.162 变为 0.238），2 箱 p 0.077 变为 0.138；
+  均不显著，结论不变。论文 5.1、图 3 题注、表 12 与 verify_round4.py
+  同步更新。
+
+## F23. 主设计样本量口径混淆（第九至十一轮逐步查清）
+
+- 论文原称 84.7% 的匹配样本"带有可用报价数"、且 164,203 份"落在 20% 带
+  内"——把三个不同的数混为一谈：84.7% 仅为授奖匹配率；可用报价数仅约
+  50%；20% 带内有 317,046 变为 339,636 条公告。3.1 已改为三个样本量分别
+  陈述，各结局可用率逐一说明。
+- "CN 估值覆盖 55% of 8.58 million" 无出处：从原始 zip 单遍计数为
+  7,966,779 条过滤后公告、4,688,892 条带估值（58.9%）。3.1/7.6 已改。
