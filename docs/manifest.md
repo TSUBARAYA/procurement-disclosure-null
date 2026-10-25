@@ -7,15 +7,25 @@ versioned; each entry states what it certifies and what it does not.
 
 | File | SHA-256 (of the committed bytes) | Status |
 |---|---|---|
-| `config/preregistration_v6.yaml` | `7fb646a88aaa0da3fba59bad92e462375785ef2c09e5291a016f8b7c5df0c021` | frozen; never edited after 2026-10-19 |
+| `config/preregistration_v6.yaml` | `e07ee1fe60fb66c3fb6f086ea23f6b547c2196643e23e82a386d49817cf0ab5f` | frozen; never edited after 2026-10-19 |
 | `config/preregistration_v6_threshold_addendum.md` | see `docs/manifest.md` of tag `v2.0` | correction addendum (the frozen file itself is untouched) |
 
 The hash certifies **integrity after the fact**: the published bytes are the
 bytes that were committed, and any later edit would break the hash. It does
 **not** certify that the plan the file records was correct — the frozen
 threshold table was wrong for 2013–2017, which is why the correction lives in
-a separate addendum (failure log F18; paper Section 7.4). The committed file
-uses CRLF line endings; the hash above is over those bytes as committed.
+a separate addendum (failure log F18; paper Section 7.4).
+
+Verify against the **committed blob**, not the checked-out file: a Windows
+checkout with `core.autocrlf=true` rewrites LF to CRLF on disk, so hashing the
+working copy gives a different value.
+
+```
+git cat-file blob v1.0-archive:config/preregistration_v6.yaml | sha256sum
+# e07ee1fe60fb66c3fb6f086ea23f6b547c2196643e23e82a386d49817cf0ab5f
+```
+
+The blob is byte-identical in `v1.0-archive` and `v2.0` (verified).
 
 ## Version map
 
